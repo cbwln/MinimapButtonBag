@@ -100,6 +100,7 @@ frame:SetScript("OnEvent", function(self, event, loadedAddon)
             else
                 bagButton(icon:GetMinimapButton(buttonName))
             end
+            updateLayout()
         end)
     end
 
